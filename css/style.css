@@ -47,6 +47,7 @@ input[type=text]{
 	flex-direction: column;
 	float: right;
 	
+	
 }
 input[type=info]{
 	font-family: 'Poppins', sans-serif;
@@ -55,11 +56,19 @@ input[type=info]{
 	padding-top: 20px;
 	padding-left: 20px;
 	margin-bottom: 16px;
+	 box-sizing: border-box;
+    border: 1px solid #E8E8E8;
 
-
-	
-
-	
-
-
+}
+.button{
+	font-family: 'Poppins', sans-serif;
+	width: 352px;
+	padding-bottom: 21px;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-bottom: 16px;
+	 box-sizing: border-box;
+    border: 1px solid #E8E8E8;
+    background-color: #5863F8;
+    color: white;
 }
